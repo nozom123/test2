@@ -52,7 +52,7 @@ const sendDataToServer = (data, eventType) => {
         ...data,
       };
 
-      return fetch("https://miniature-space-fiesta-ppvwrqwr5r73rgrr-3000.app.github.dev/endpoint", {
+      return fetch("https://test2-ohb3.onrender.com/endpoint", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(combinedData),
